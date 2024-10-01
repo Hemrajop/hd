@@ -79,7 +79,7 @@ class Call(PyTgCalls):
         self.userbot3 = Client(
             api_id=config.API_ID,
             api_hash=config.API_HASH,
-            session_name=str(config.STRING3),
+            string_session=str(config.STRING3),
         )
         self.three = PyTgCalls(
             self.userbot3,
@@ -88,7 +88,7 @@ class Call(PyTgCalls):
         self.userbot4 = Client(
             api_id=config.API_ID,
             api_hash=config.API_HASH,
-            session_name=str(config.STRING4),
+            string_session=str(config.STRING4),
         )
         self.four = PyTgCalls(
             self.userbot4,
@@ -97,7 +97,7 @@ class Call(PyTgCalls):
         self.userbot5 = Client(
             api_id=config.API_ID,
             api_hash=config.API_HASH,
-            session_name=str(config.STRING5),
+            string_session=str(config.STRING5),
         )
         self.five = PyTgCalls(
             self.userbot5,
